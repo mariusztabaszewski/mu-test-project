@@ -1,0 +1,28 @@
+.l-contact {
+    padding-bottom: 74px;
+    background-image: url(../../images/notebook-s.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    @include retina { 
+        background-image: url(../../images/notebook-s@2x.jpg);
+    }
+    @include bp(medium) {
+        background-image: url(../../images/notebook-m.jpg);
+        @include retina { 
+            background-image: url(../../images/notebook-m@2x.jpg);
+        }
+    }
+    @include bp(less-large) {
+        background-image: url(../../images/notebook-l.jpg);
+        @include retina { 
+            background-image: url(../../images/notebook-l@2x.jpg);
+        }
+    }
+    @include bp(more-large) {
+        background-image: url(../../images/notebook-xl.jpg);
+        @include retina { 
+            background-image: url(../../images/notebook-xl@2x.jpg);
+        }
+    }
+}

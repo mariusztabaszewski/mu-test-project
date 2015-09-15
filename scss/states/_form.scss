@@ -1,0 +1,10 @@
+input:focus, textarea:focus {
+    border: 2px solid $black;
+}
+
+.contact-submit input {
+    transition: background 0.2s ease-in;
+    &:hover {
+        background: darken($brown,20%);
+    }
+}

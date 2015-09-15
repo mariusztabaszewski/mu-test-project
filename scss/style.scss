@@ -1,0 +1,54 @@
+// Folder structure based on SMACSS
+
+// Inspired by:
+
+// "Scalable and Modular Architecture for CSS" 
+// a book by Jonathan Snook - https://smacss.com/
+
+// Many articles about SMACSS, OOCSS and BEM
+
+// "SMACSS-based starter toolkit for SCSS project" by Mina Markham
+// - https://github.com/minamarkham/sassy-starter 
+
+
+// 01. Utilities 
+// 02. Libraries
+// 03. Base 
+// 04. Layout
+// 05. Modules 
+// 06. States
+// 07. @font-face
+// 08. Shame
+
+
+// Utilities
+
+@import "utilities/index"; 
+
+// Libraries
+
+@import 'utilities/lib'; 
+
+// Base
+
+@import 'base/index';
+
+// Layout
+
+@import 'layout/index'; 
+
+// Modules
+
+@import 'modules/index'; 
+
+// States
+
+@import 'states/index'; 
+
+// @font-face
+
+@import 'utilities/fonts';
+
+// Shame
+
+@import 'shame';

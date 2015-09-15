@@ -1,0 +1,38 @@
+// responsive breakpoints mixin
+// based on: http://www.sitepoint.com/managing-responsive-breakpoints-sass/
+
+$breakpoints: (
+  'less-small' : 320px,
+  'small' : 480px,
+  'medium' : 768px,
+  'more-medium' : 960px,
+  'less-large' : 1024px,
+  'large' : 1200px,
+  'more-large': 1600px 
+);
+
+@mixin bp($breakpoint) {
+
+  $value: map-get($breakpoints, $breakpoint);
+ 
+  @if $value != null {
+    @media (min-width: $value) {
+      @content;
+    }
+  }
+ 
+  @else {
+    @warn "No value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}
+
+//
+
+@mixin retina {
+  @media 
+    (-webkit-min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi) { 
+        @content;
+    }
+}

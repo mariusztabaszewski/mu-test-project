@@ -1,0 +1,36 @@
+.l-motto {
+    padding: 80px 0;
+    background-image: url(../../images/sea-s.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    @include retina { 
+        background-image: url(../../images/sea-s@2x.jpg);
+    }
+    @include bp(medium) {
+        background-image: url(../../images/sea-m.jpg);
+        @include retina { 
+            background-image: url(../../images/sea-m@2x.jpg);
+        }
+    }
+    @include bp(less-large) {
+        background-image: url(../../images/sea-l.jpg);
+        @include retina { 
+            background-image: url(../../images/sea-l@2x.jpg);
+        }
+    }
+    @include bp(more-large) {
+        background-image: url(../../images/sea-xl.jpg);
+        @include retina { 
+            background-image: url(../../images/sea-xl@2x.jpg);
+        }
+    }
+    blockquote {
+        margin: 12px 0;
+        text-align: justify;
+    }
+    figcaption {
+        text-align: right;
+    }
+}

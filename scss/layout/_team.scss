@@ -1,0 +1,6 @@
+.l-team {
+    padding: 40px 20px;
+    @include bp(medium) {
+        padding: 40px 0;
+    }
+}

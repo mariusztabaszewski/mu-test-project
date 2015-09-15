@@ -1,0 +1,35 @@
+// State Rules
+
+// A state is something that augments and overrides all other styles.
+// For example, an accordion section may be in a collapsed or expanded state.
+// A message may be in a success or error state.
+
+// States are generally applied to the same element as a layout rule or
+// applied to the same element as a base module class.
+
+// @source http://smacss.com/book/type-state
+
+
+// header
+
+@import 'header';
+
+// mobile-menu
+
+@import 'mobile-menu';
+
+// main-nav
+
+@import 'main-nav';
+
+// button
+
+@import 'button';
+
+// form
+
+@import 'form';
+
+// footer
+
+@import 'footer';

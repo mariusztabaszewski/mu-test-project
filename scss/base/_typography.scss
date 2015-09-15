@@ -1,0 +1,73 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 90%;
+    color: $black;
+    @include bp(medium) {
+        font-size: 100%;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 1.6em;
+    @include bp(medium) {
+        font-size: 2.2em;
+    }
+}
+
+h2 {
+    @include bp(medium) {
+        margin-top: 0;
+    }
+}
+
+p {
+    line-height: 1.6;
+}
+
+.slide-text, blockquote, figcaption {
+    color: white;
+}
+
+blockquote {
+    line-height: 1.6;
+    font-size: 1.4em;
+}
+
+.main-nav a, .button {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.contact-form {
+    label {
+        font-size: 0.8em;
+        text-transform: uppercase;
+    }
+    .contact-submit input {
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
+footer {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    font-size: 0.8em;
+    
+    text-transform: uppercase;
+    p {
+        color: white;
+        margin: 0;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+

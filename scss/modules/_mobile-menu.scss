@@ -1,0 +1,11 @@
+.mobile-menu {
+    width: 38px;
+    cursor: pointer;
+    .top,
+    .middle, 
+    .bottom {
+        height: 4px;
+        margin: 6px auto;
+        background: $black;     
+    }
+}

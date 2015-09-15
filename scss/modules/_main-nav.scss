@@ -1,0 +1,21 @@
+.main-nav {
+    height: 60px;
+    .main-nav-items {
+        padding: 10px 0;
+        list-style: none;
+        text-align: center;
+        background: $brown;
+        @extend %clearfix;
+        @include bp(medium) {
+            text-align: left;
+            padding: 0;
+        }
+        li {
+            margin: 6px 0;
+            @include bp(medium) {
+                float: left;
+                margin: 2px 0 0 20px;
+            }
+        }
+    }
+}

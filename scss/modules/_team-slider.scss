@@ -1,0 +1,15 @@
+// slider works only with styles from
+// utilities/lib
+
+.owl-carousel-team {
+    .team-member {
+        margin: 8px;
+        text-align: center;
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 100%;
+        }
+    }
+}

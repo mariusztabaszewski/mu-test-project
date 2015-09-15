@@ -1,0 +1,9 @@
+.js-none {
+    display: none;
+}
+
+@include bp(medium) {
+    .js-none {
+        display: block;
+    }
+}

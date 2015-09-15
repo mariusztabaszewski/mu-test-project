@@ -1,0 +1,19 @@
+.button {
+    transition: background 0.2 ease-in;
+}
+
+.blue:hover {
+    background: darken($blue, 15%);
+}
+
+.yellow:hover {
+    background: darken($yellow, 15%);
+}
+
+.red:hover {
+    background: darken($red, 15%);
+}
+
+.green:hover {
+    background: darken($green, 15%);
+}

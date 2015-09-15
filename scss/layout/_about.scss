@@ -1,0 +1,24 @@
+.l-about {
+    padding: 40px 20px;
+    .content {
+        @extend %clearfix;
+    }
+    .about-image {
+        width: 100%;
+        @include bp(medium) {
+            width: 48%;
+            float: left;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .about-text {
+        width: 100%;
+        float: right;
+        @include bp(medium) {
+            width: 48%;
+        }
+    }
+}

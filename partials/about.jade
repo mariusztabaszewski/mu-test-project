@@ -1,0 +1,16 @@
+section#about.l-about
+    .content
+        .about-image
+            picture
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+                source(media="(max-width: 767px)" srcset="images/writing-l.jpg, images/writing-l@2x.jpg 2x")
+                source(media="(min-width: 768px)" srcset="images/writing-m.jpg, images/writing-m@2x.jpg 2x")
+                <!--[if IE 9]></video><![endif]-->
+                img(src="images/writing-l.jpg" alt="Ernest Hemingway at work")
+        .about-text
+            h2 About Us
+            p Once I said: 
+                cite “Poor Faulkner. Does he really think big emotions come from big words? He thinks I don’t know the ten-dollar words. I know them all right. But there are older and simpler and better words, and those are the ones I use.”
+            p But that was a long time ago. Now, we work together!
+            a(href="#").button.blue Read More
+            

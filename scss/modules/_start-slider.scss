@@ -1,0 +1,134 @@
+// slider works only with styles from
+// utilities/lib
+
+.owl-carousel-start {
+    .owl-wrapper-outer, .owl-wrapper, .owl-item {
+        height: 100%;
+    }
+    .owl-pagination {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.start-slide {
+    height: 100%;
+    .content {
+        height: 100%;
+        position: relative;
+    }
+}
+
+.slide-text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 20px;
+    text-align: center;
+    @include bp(medium) {
+        width: 80%;
+        padding: 0;
+    }
+}
+
+.owl-carousel-start {
+    .owl-item:first-child {
+        background-image: url(../../images/table-s.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        @include retina { 
+            background-image: url(../../images/table-s@2x.jpg);
+        }
+        @include bp(medium) {
+            background-image: url(../../images/table-m.jpg);
+            @include retina { 
+                background-image: url(../../images/table-m@2x.jpg);
+            }
+        }
+        @include bp(less-large) {
+            background-image: url(../../images/table-l.jpg);
+            @include retina { 
+                background-image: url(../../images/table-l@2x.jpg);
+            }
+        }
+        @include bp(more-large) {
+            background-image: url(../../images/table-xl.jpg);
+            @include retina { 
+                background-image: url(../../images/table-xl@2x.jpg);
+            }
+        }
+    }
+
+    .owl-item:nth-child(2) {
+        background-image: url(../../images/typewriter-s.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        @include retina { 
+            background-image: url(../../images/typewriter-s@2x.jpg);
+        }
+        @include bp(medium) {
+            background-image: url(../../images/typewriter-m.jpg);
+            @include retina { 
+                background-image: url(../../images/typewriter-m@2x.jpg);
+            }
+        }
+        @include bp(less-large) {
+            background-image: url(../../images/typewriter-l.jpg);
+            @include retina { 
+                background-image: url(../../images/typewriter-l@2x.jpg);
+            }
+        }
+        @include bp(more-large) {
+            background-image: url(../../images/typewriter-xl.jpg);
+            @include retina { 
+                background-image: url(../../images/typewriter-xl@2x.jpg);
+            }
+        }
+    }
+
+    .owl-item:nth-child(3) {
+        background-image: url(../../images/kindle-s.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        @include retina { 
+            background-image: url(../../images/kindle-s@2x.jpg);
+        }
+        @include bp(medium) {
+            background-image: url(../../images/kindle-m.jpg);
+            @include retina { 
+                background-image: url(../../images/kindle-m@2x.jpg);
+            }
+        }
+        @include bp(less-large) {
+            background-image: url(../../images/kindle-l.jpg);
+            @include retina { 
+                background-image: url(../../images/kindle-l@2x.jpg);
+            }
+        }
+        @include bp(more-large) {
+            background-image: url(../../images/kindle-xl.jpg);
+            @include retina { 
+                background-image: url(../../images/kindle-xl@2x.jpg);
+            }
+        }
+    }
+}
+
+
+.owl-carousel-start .owl-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background: rgba(0,0,0,0.4);
+} 

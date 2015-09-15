@@ -1,0 +1,7 @@
+.main-nav .js-active {
+    color: $black;
+}
+
+.main-nav a:hover {
+    color: lighten($black,15%);
+}
