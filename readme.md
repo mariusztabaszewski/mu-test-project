@@ -1,3 +1,5 @@
+http://mariusztabaszewski.github.io/mu-test-project/
+
 Podsumowanie:
 
 Ukończenie zadania zajęło mi więcej niż przewidywany czas podany w mailu (6-8 godzin). Myślę, że spokojnie mogę powiedzieć, że całosć zajęła jakieś mi dwa razy tyle.
